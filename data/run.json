@@ -1,0 +1,17 @@
+{
+  "run_time_utc": "2026-10-20T12:44:58Z",
+  "settings": {
+    "window_days": 365,
+    "max_rows": 200000,
+    "seed": 42,
+    "play_langs": [
+      "en"
+    ],
+    "play_country": "us",
+    "appstore_countries": [
+      "us"
+    ],
+    "play_app_id": "com.gianteagle.apps.grocery",
+    "appstore_id": "1465897036"
+  }
+}

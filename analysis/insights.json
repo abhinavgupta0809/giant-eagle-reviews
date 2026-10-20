@@ -1,0 +1,529 @@
+{
+ "evidence_note": "Store reviews are self-selected and skew to people who are delighted or angry. This is a small corpus: every written review in twelve months, under 350 in all and under 100 from iPhone, and none carries the reviewer's age. Treat every card as a signal to check against Giant Eagle's own app and myPerks data, not as a validated problem or a measure of Gen Z.",
+ "label_takeaways": {
+  "Specific Complaint": [
+   "Most complaints are about the app failing at basic steps: signing in, paying, staying open, the shopping list, the scanner.",
+   "Many say a specific update broke something that used to work.",
+   "Several reviewers say they finished the order on the website or went to another store instead."
+  ],
+  "Specific Praise": [
+   "Praise is mostly for people, not the app: curbside staff, shoppers who fill orders, named associates.",
+   "The rest is about time and access: busy schedules, limited mobility, no car."
+  ],
+  "Feature Request": [
+   "Few requests, and most ask to bring back something an update removed (coupon filters, expiry dates) or to show the loyalty card faster (Wallet, widget)."
+  ],
+  "Generic Good": [
+   "Short approval with nothing specific. It lifts the star average and says nothing about why."
+  ],
+  "Generic Bad": [
+   "Short disapproval with nothing specific."
+  ],
+  "Nonsense": [
+   "Off-topic or unreadable."
+  ]
+ },
+ "category_notes": {
+  "Login & Sign-in": "The largest complaint area. Forced sign-outs, passkey prompts, reset codes that fail, and being asked to sign in again at the register.",
+  "Checkout & Payment": "Payment that won't load or process, carts that crash at checkout, a December 2025 update that blocked checkout, and benefit cards (SNAP, EBT, Propel, UPMC Healthy Card) not accepted. The most-liked review in the set is here.",
+  "Crashes & Speed": "Crashes, lag, and fixes by reinstall. Two clusters stand out: an early-November 2025 update after which the app wouldn't load or find stores, and a January 2026 build that crashed on open until a fix days later.",
+  "Shopping List & Favorites": "A June list redesign that reviewers say broke the list, plus removed 'previously purchased' and hidden favorites.",
+  "Barcode Scanner": "The camera scanner stopped working after a late-July update, including the in-store price check.",
+  "Search & Product Info": "Search that misses items, products sold in store but not online, and no aisle locations.",
+  "Design & Navigation": "Confusing checkout and navigation. One reviewer says it's hard for older users.",
+  "Privacy & Permissions": "Location prompts on every launch, birth date to link a card, cookie toggles that don't work, a required lock screen.",
+  "Coupons & Deals": "Split. Praised for savings and highlighted deals; criticized for removed coupon filters and expiry dates, promo codes that fail, and sale prices not applied.",
+  "myPerks & Loyalty Card": "Points are liked; getting to the card is not. Wallet and widget don't show it, and perks sometimes don't apply at self-checkout.",
+  "Prices & Selection": "Several say prices run higher than nearby grocers; others praise quality and stock.",
+  "Curbside Pickup": "Mostly praise for curbside staff. The complaints are the app spinning or freezing at pickup check-in.",
+  "Delivery": "Fees, bag charges, tips that can't be edited, missing items, and crushed bags; also praise for on-time drivers.",
+  "Order Changes & Time Slots": "Adding items to a placed order can lose the time slot or restart checkout.",
+  "Order Quality": "Missing or poor-quality items, and one accuracy compliment.",
+  "Support & Refunds": "No reply to messages, no refund option in the app, no way to contact the developers.",
+  "Pharmacy": "Prescription refill setup that won't load, a second sign-in for the pharmacy section, and a separate pharmacy app. Pharmacy staff get praise.",
+  "Staff & Service": "Almost all praise, often naming the associate.",
+  "Saves Time & Effort": "Mostly praise. Busy workers and families, a student before term, people with limited mobility, disabilities, or no car.",
+  "Other": "",
+  "Recipes & Meal Ideas": "Rare. One reviewer wants to save recipes and add all the ingredients to the cart."
+ },
+ "callouts": [
+  {
+   "id": "c_regress",
+   "placement": "overview",
+   "title": "Says an update made it worse",
+   "text": "{{count}} reviews say the app got worse, usually after a named update.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint",
+     "Generic Bad",
+     "Feature Request"
+    ],
+    "regression_claim": true
+   }
+  },
+  {
+   "id": "c_kroger",
+   "placement": "overview",
+   "title": "Kroger already comes up",
+   "text": "{{count}} reviews name Kroger.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint",
+     "Specific Praise",
+     "Feature Request",
+     "Generic Bad",
+     "Generic Good"
+    ],
+    "competitors_any": [
+     "Kroger"
+    ]
+   }
+  },
+  {
+   "id": "c_register",
+   "placement": "overview",
+   "title": "Signed out at the register",
+   "text": "{{count}} reviews describe being asked to sign in again at the register, in the store, or at the pump.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Login & Sign-in"
+    ],
+    "pattern": "register|checkout line|standing in line|inside the store|i'm at giant eagle|pump"
+   }
+  },
+  {
+   "id": "c_school",
+   "placement": "overview",
+   "title": "Mentions school or college",
+   "text": "{{count}} reviews mention school, college, or being a student.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint",
+     "Specific Praise",
+     "Feature Request",
+     "Generic Bad",
+     "Generic Good"
+    ],
+    "pattern": "school|college|student|campus|dorm"
+   }
+  },
+  {
+   "id": "c_access",
+   "placement": "overview",
+   "title": "Mobility, disability, or no car",
+   "text": "{{count}} reviews mention limited mobility, a disability, an injury, or no car.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint",
+     "Specific Praise",
+     "Feature Request",
+     "Generic Bad",
+     "Generic Good"
+    ],
+    "pattern": "mobility|disabled|no car\\b|don't have a car|don't drive|unable to walk|walk the 45|can't shop in|can no longer shop|not well enough|crippled|handicap|vision impaired|voiceover|in a boot"
+   }
+  },
+  {
+   "id": "c_older",
+   "placement": "overview",
+   "title": "Mentions older users",
+   "text": "{{count}} reviews mention older users.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint",
+     "Specific Praise",
+     "Feature Request",
+     "Generic Bad",
+     "Generic Good"
+    ],
+    "pattern": "older folks|elderly|senior|being old"
+   }
+  },
+  {
+   "id": "c_busy",
+   "placement": "overview",
+   "title": "Busy lives",
+   "text": "{{count}} reviews mention work hours, a hectic life, or a toddler.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint",
+     "Specific Praise",
+     "Feature Request",
+     "Generic Bad",
+     "Generic Good"
+    ],
+    "pattern": "full time|hectic|so many hours|long day at work|out of town|crunched for time|tied up|toddler"
+   }
+  }
+ ],
+ "improvements": [
+  {
+   "id": "i_login",
+   "type": "fix",
+   "short": "Sign-in",
+   "title": "People get signed out and can't get back in",
+   "desc": "The largest complaint area. Reviewers are signed out without asking, hit passkey prompts that crash, reset codes that expire at once, and 'too many requests' or 403 errors. Some say it happens at the register or the gas pump, where the card is needed.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Login & Sign-in"
+    ]
+   },
+   "next": "Pull session length and forced sign-out rate by app version, and sign-in success after a passkey prompt. If sign-outs cluster at store check-in, show the loyalty barcode without a fresh login."
+  },
+  {
+   "id": "i_checkout",
+   "type": "fix",
+   "short": "Checkout",
+   "title": "Payment fails at the last step",
+   "desc": "Carts that crash at checkout, cards and PayPal that won't process, a payment page that won't load. Some finish the order on the website; one review with 84 helpful votes says it's been broken for a month.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Checkout & Payment"
+    ]
+   },
+   "next": "Compare checkout completion in the app with the website by week and payment method. A gap that opened with a release points at the app, not the payment provider."
+  },
+  {
+   "id": "i_crash",
+   "type": "fix",
+   "short": "Crashes",
+   "title": "Outages and crashes after updates",
+   "desc": "Crashes, freezes, timeouts, and a reinstall as the standard fix. An early-November 2025 update left the app unable to load or find stores for days; a January 2026 build crashed on open.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Crashes & Speed"
+    ]
+   },
+   "next": "Rank crash-free sessions by release for the last six months and check them against the weeks these reviews arrived."
+  },
+  {
+   "id": "i_list",
+   "type": "fix",
+   "short": "Shopping list",
+   "title": "The list redesign removed what people used",
+   "desc": "Reviewers say a June update broke the shopping list, removed 'previously purchased', and hid favorites. These were their reasons to open the app weekly.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Shopping List & Favorites"
+    ]
+   },
+   "next": "Compare weekly list users and list-to-cart conversion before and after the June release. If they fell, bring back the old list behavior as an option."
+  },
+  {
+   "id": "i_scanner",
+   "type": "fix",
+   "short": "Scanner",
+   "title": "The barcode scanner broke in late July",
+   "desc": "Most of these arrived after a late-July update stopped the camera scanner, including the in-store price check. One reviewer blames Kroger, which hasn't taken over.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Barcode Scanner"
+    ]
+   },
+   "next": "Check scanner opens and errors by release and OS. This is a regression with a likely single cause."
+  },
+  {
+   "id": "i_coupons",
+   "type": "explore",
+   "short": "Coupons",
+   "title": "Coupons save money but got harder to use",
+   "desc": "Filters like 'food only' and expiry dates disappeared, promo codes fail, and sale prices don't always apply at checkout.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Coupons & Deals"
+    ]
+   },
+   "next": "Track coupon clips and redemptions per active user before and after the filter change, and audit the gap between the flyer price and the charged price."
+  },
+  {
+   "id": "i_perks",
+   "type": "explore",
+   "short": "Loyalty card",
+   "title": "The loyalty card is hard to reach",
+   "desc": "No working Wallet pass, a widget that only says 'log in', a PIN reset that freezes, and perks that don't show at self-checkout.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "myPerks & Loyalty Card"
+    ]
+   },
+   "next": "Measure time from opening the app to showing the card at the register, and how often a card lookup fails. A Wallet pass removes the sign-in step entirely."
+  },
+  {
+   "id": "i_support",
+   "type": "fix",
+   "short": "Support",
+   "title": "No way to get help from the app",
+   "desc": "Messages go unanswered, refunds for missing items can't be requested in the app, and there's no developer contact.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Support & Refunds"
+    ]
+   },
+   "next": "Count contacts per order for app orders and time to first reply. Add an in-app refund request for missing or spoiled items."
+  },
+  {
+   "id": "i_delivery",
+   "type": "explore",
+   "short": "Delivery fees",
+   "title": "Delivery fees and tips feel unfair",
+   "desc": "Time-slot fees, a bag charge that doesn't apply in store, tips that can't be changed after delivery, and a comparison with Instacart's fees.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Delivery",
+     "Order Changes & Time Slots"
+    ]
+   },
+   "next": "Compare repeat-order rates for delivery customers who paid the bag and slot fees with those who used pickup."
+  },
+  {
+   "id": "i_search",
+   "type": "explore",
+   "short": "Search",
+   "title": "Search misses items and the store map is missing",
+   "desc": "Items sold in store aren't online, search returns the wrong things, and there's no aisle locator.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Search & Product Info"
+    ]
+   },
+   "next": "Pull the null-search rate and the top searched terms with no results."
+  },
+  {
+   "id": "i_prices",
+   "type": "explore",
+   "short": "Prices",
+   "title": "Seen as pricier than nearby grocers",
+   "desc": "Reviewers compare prices to Heinen's and Trader Joe's and say sale items run out.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Prices & Selection"
+    ]
+   },
+   "next": "Check price perception in myPerks surveys by age band; this is the area most likely to matter to younger, lower-income shoppers."
+  },
+  {
+   "id": "i_privacy",
+   "type": "fix",
+   "short": "Privacy",
+   "title": "Data requests that put people off",
+   "desc": "Location prompts every launch, a birth date required to link a card, cookie toggles that don't toggle, and a required lock screen.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Privacy & Permissions"
+    ]
+   },
+   "next": "Ask only for location once, and check drop-off at the card-linking step where birth date is required."
+  },
+  {
+   "id": "i_design",
+   "type": "explore",
+   "short": "Navigation",
+   "title": "Hard to navigate, especially when something goes wrong",
+   "desc": "Confusing checkout instructions, back buttons that go home, and an interface one reviewer calls hard for older users.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Design & Navigation"
+    ]
+   },
+   "next": "Run a five-task usability test (sign in, find an item, clip a coupon, check out, report a missing item) with two groups: under 28 and over 55."
+  },
+  {
+   "id": "i_benefits",
+   "type": "fix",
+   "short": "Benefit cards",
+   "title": "SNAP, EBT, and benefit cards fail at checkout",
+   "desc": "SNAP and EBT not accepted, Propel benefits that can't be split with a gift card, and a UPMC Healthy Card that doesn't work online.",
+   "match": {
+    "labels_any": [
+     "Specific Complaint"
+    ],
+    "categories_any": [
+     "Checkout & Payment"
+    ],
+    "pattern": "snap|ebt|propel|healthy card|food allotment"
+   },
+   "next": "Pull online order attempts paid with SNAP/EBT and their completion rate against card payments. Younger and lower-income households are more likely to rely on benefits, so check this by age band too."
+  }
+ ],
+ "feature_requests": [
+  {
+   "id": "f_coupon_filters",
+   "title": "Bring back coupon filters and expiry dates",
+   "desc": "Restore the 'food only' filter and show when coupons expire.",
+   "match": {
+    "labels_any": [
+     "Feature Request"
+    ],
+    "categories_any": [
+     "Coupons & Deals"
+    ],
+    "pattern": "filter|expir"
+   },
+   "next": "Low cost, and it restores something that existed."
+  },
+  {
+   "id": "f_wallet",
+   "title": "Loyalty card in Wallet and on a widget",
+   "desc": "Show the card without opening and signing into the app.",
+   "match": {
+    "labels_any": [
+     "Feature Request"
+    ],
+    "categories_any": [
+     "myPerks & Loyalty Card"
+    ],
+    "pattern": "wallet|widget"
+   },
+   "next": "Count how many store visits start with an app open just to show the card."
+  },
+  {
+   "id": "f_tip",
+   "title": "Edit the tip and request refunds after delivery",
+   "desc": "Change the tip, tip as a percent, rate the delivery, request a refund for missing items.",
+   "match": {
+    "labels_any": [
+     "Feature Request"
+    ],
+    "categories_any": [
+     "Delivery"
+    ],
+    "pattern": "tip|refund"
+   },
+   "next": "Check how many delivery orders generate a support contact about missing items."
+  },
+  {
+   "id": "f_find",
+   "title": "Aisle locator, substitutions, and product reviews",
+   "desc": "Find the aisle in an unfamiliar store, pick substitutions, read reviews of items.",
+   "match": {
+    "labels_any": [
+     "Feature Request"
+    ],
+    "categories_any": [
+     "Search & Product Info",
+     "Order Changes & Time Slots"
+    ],
+    "pattern": "aisle|locat|substitut|review"
+   },
+   "next": "Kroger's app already has aisle locations; check what carries over after the deal closes before building."
+  },
+  {
+   "id": "f_promo",
+   "title": "Promo codes for loyal customers, not just new ones",
+   "desc": "New-customer codes frustrate people who already spend a lot.",
+   "match": {
+    "labels_any": [
+     "Feature Request"
+    ],
+    "categories_any": [
+     "Coupons & Deals"
+    ],
+    "pattern": "promo|repeat"
+   },
+   "next": "Compare retention for new customers who used a first-order code with those who didn't."
+  }
+ ],
+ "strengths": [
+  {
+   "id": "s_people",
+   "title": "The people are the brand",
+   "desc": "Curbside staff, shoppers, and named associates get the warmest reviews, almost all at 5 stars.",
+   "match": {
+    "labels_any": [
+     "Specific Praise"
+    ],
+    "categories_any": [
+     "Staff & Service",
+     "Curbside Pickup"
+    ]
+   },
+   "next": "Protect it. Curbside is where the app and the people meet; fix the app steps that lead to it first."
+  },
+  {
+   "id": "s_time",
+   "title": "It saves time for people who can't easily shop",
+   "desc": "Busy workers, a family on the way home, a student before term, people with limited mobility or no car.",
+   "match": {
+    "labels_any": [
+     "Specific Praise"
+    ],
+    "categories_any": [
+     "Saves Time & Effort"
+    ]
+   },
+   "next": "These are the jobs the app does well. Check which of them younger customers share (time, no car) before designing for Gen Z."
+  },
+  {
+   "id": "s_savings",
+   "title": "Savings and points when they work",
+   "desc": "Coupons that light up on products, BOGO deals, and perks shown clearly.",
+   "match": {
+    "labels_any": [
+     "Specific Praise"
+    ],
+    "categories_any": [
+     "Coupons & Deals",
+     "myPerks & Loyalty Card"
+    ]
+   },
+   "next": "Keep the savings visible on product cards; it's the most-praised app feature."
+  },
+  {
+   "id": "s_ease",
+   "title": "Easy when it works",
+   "desc": "Looking up prices, ordering, and the app over the website.",
+   "match": {
+    "labels_any": [
+     "Specific Praise"
+    ],
+    "categories_any": [
+     "Design & Navigation",
+     "Search & Product Info"
+    ]
+   },
+   "next": "Use these reviews as the target experience for the fixes above."
+  }
+ ]
+}

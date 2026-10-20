@@ -1,0 +1,114 @@
+{
+  "version": "1",
+  "labels": [
+    "Specific Praise",
+    "Specific Complaint",
+    "Feature Request",
+    "Generic Good",
+    "Generic Bad",
+    "Nonsense"
+  ],
+  "specific_labels": [
+    "Specific Praise",
+    "Specific Complaint",
+    "Feature Request"
+  ],
+  "generic_labels": [
+    "Generic Good",
+    "Generic Bad"
+  ],
+  "forbidden_label_pairs": [
+    [
+      "Generic Good",
+      "Specific Praise"
+    ],
+    [
+      "Generic Bad",
+      "Specific Complaint"
+    ],
+    [
+      "Generic Good",
+      "Generic Bad"
+    ]
+  ],
+  "categories": [
+    "Login & Sign-in",
+    "Checkout & Payment",
+    "Crashes & Speed",
+    "Shopping List & Favorites",
+    "Barcode Scanner",
+    "Search & Product Info",
+    "Design & Navigation",
+    "Privacy & Permissions",
+    "Coupons & Deals",
+    "myPerks & Loyalty Card",
+    "Prices & Selection",
+    "Curbside Pickup",
+    "Delivery",
+    "Order Changes & Time Slots",
+    "Order Quality",
+    "Support & Refunds",
+    "Pharmacy",
+    "Staff & Service",
+    "Saves Time & Effort",
+    "Recipes & Meal Ideas",
+    "Other"
+  ],
+  "competitors": [
+    "Kroger",
+    "Instacart",
+    "DoorDash",
+    "Sam's Club",
+    "Meijer",
+    "Heinen's",
+    "Trader Joe's",
+    "Wegmans",
+    "Other"
+  ],
+  "max_labels": 2,
+  "max_categories": 2,
+  "sentiment_min": 1,
+  "sentiment_max": 5,
+  "mismatch_threshold": 2,
+  "brief_areas": {
+    "Website and app experiences": [
+      "Login & Sign-in",
+      "Checkout & Payment",
+      "Crashes & Speed",
+      "Shopping List & Favorites",
+      "Barcode Scanner",
+      "Search & Product Info",
+      "Design & Navigation",
+      "Privacy & Permissions"
+    ],
+    "Pickup and delivery": [
+      "Curbside Pickup",
+      "Delivery",
+      "Order Changes & Time Slots",
+      "Order Quality"
+    ],
+    "Pricing, promotions, and value": [
+      "Coupons & Deals",
+      "Prices & Selection"
+    ],
+    "Loyalty and rewards": [
+      "myPerks & Loyalty Card"
+    ],
+    "In-store experiences": [
+      "Staff & Service"
+    ],
+    "Prepared foods and convenience": [
+      "Saves Time & Effort"
+    ],
+    "Health and wellness": [
+      "Pharmacy"
+    ],
+    "Meal planning, recipes, and inspiration": [
+      "Recipes & Meal Ideas"
+    ],
+    "Brand communication and community": [],
+    "Services beyond the transaction": [
+      "Support & Refunds"
+    ]
+  }
+}

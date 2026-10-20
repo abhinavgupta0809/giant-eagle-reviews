@@ -1,0 +1,75 @@
+{
+ "fetched_at": "2026-10-20T13:00:30Z",
+ "play": {
+  "score": 4.5210867,
+  "ratings": 14008,
+  "listed_reviews": 2057,
+  "histogram": [
+   910,
+   229,
+   489,
+   1391,
+   10983
+  ],
+  "histogram_ratings": 14002,
+  "histogram_star_sum": 63314,
+  "written": {
+   "count": 2057,
+   "star_sum": 6954,
+   "by_year": [
+    {
+     "year": 2019,
+     "n": 18,
+     "star_sum": 32,
+     "five": 2
+    },
+    {
+     "year": 2020,
+     "n": 425,
+     "star_sum": 1580,
+     "five": 223
+    },
+    {
+     "year": 2021,
+     "n": 467,
+     "star_sum": 1761,
+     "five": 277
+    },
+    {
+     "year": 2022,
+     "n": 320,
+     "star_sum": 1157,
+     "five": 166
+    },
+    {
+     "year": 2023,
+     "n": 267,
+     "star_sum": 797,
+     "five": 103
+    },
+    {
+     "year": 2024,
+     "n": 140,
+     "star_sum": 409,
+     "five": 46
+    },
+    {
+     "year": 2025,
+     "n": 230,
+     "star_sum": 673,
+     "five": 86
+    },
+    {
+     "year": 2026,
+     "n": 190,
+     "star_sum": 545,
+     "five": 64
+    }
+   ]
+  }
+ },
+ "appstore": {
+  "score": 4.78716,
+  "ratings": 83918
+ }
+}

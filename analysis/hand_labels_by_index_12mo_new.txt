@@ -1,0 +1,165 @@
+# Indexes are positions in the 12-month raw_reviews.csv (scraped 2026-10-20). Only reviews not in the 6-month set.
+# index | labels | categories | sentiment | topic | competitors | regression
+0|SC|SEARCH|2|hard to find items, departments missing||F
+1|SP|STAFF,COU|5|service, convenience, savings||F
+2|GG||5|||F
+3|SC|CRASH,COU|1|app won't load for months, no coupons or card||F
+4|SP|DESIGN,COU|5|easy to move through, right sales||F
+5|SP|DESIGN,PICK|5|easy weekly curbside ordering||F
+6|GG||5|||F
+7|SC|LOGIN,CRASH|1|can't log in after update||T
+8|GG||4|||F
+9|GB||1|||F
+10|SC|COU,SUP|3|coupon search fires too early, support link broken||F
+11|SC|CRASH|1|error loading stores since update||T
+12|SC|LOGIN,PERK|1|can't log in to get points, connection error||F
+13|SC|SEARCH|1|products not showing after update||T
+14|SC|CRASH|1|app not loading for days||F
+15|SC|CRASH|1|update broke mobile data connection||T
+16|SC|CRASH,PERK|1|nothing loads, no card, no stores after update||T
+17|SC|CRASH,PICK|1|connection errors, freezes at curbside||F
+18|SC|CRASH|1|says no internet connection||T
+19|SC|CRASH|1|can't set a store||F
+20|SC|CRASH|2|store won't load on cellular since update||T
+21|SC|CRASH|1|can't find stores, won't load||T
+22|SC|LOGIN,CRASH|1|logs out, won't reinstall||F
+23|SC|LOGIN|1|sign-in error, says no internet||F
+24|FR,SP|REC,LIST|3|save recipes, add all ingredients||F
+25|SC|CRASH|1|timeout error after update||T
+26|SC|LOGIN,PERK|1|booted out, can't sign in to scan card||F
+27|SC|CP,CRASH|1|can't order since Nov 1||T
+28|SP|STAFF|5|staff know the regulars||F
+29|SC,SP|PRICE,STAFF|2|high prices, great employees||F
+30|SC|CP|3|SNAP payment problem, resolved||F
+31|SP|DEL,STAFF|5|on-time, friendly service||F
+32|SC|SEARCH|2|app missing items carried in store||F
+33|SC|CP|2|checkout needs repeated taps, no error shown||F
+34|SP|CHANGE,COU|5|substitution notes, circular, coupons||F
+35|SP|STAFF|5|shoppers call when unsure||F
+36|FR|LIST|3|delete old previously purchased items||F
+37|SP|PRICE|5|variety||F
+38|SC,SP|DEL,QUAL|3|drivers crush bags||F
+39|SC|CHANGE|1|no substitutions on alcohol||F
+40|SC|DESIGN,PHARM|1|hard to navigate, pharmacy sign-in freezes||F
+41|GG||5|||F
+42|GG||5|||F
+43|GG||5|||F
+44|GG||5|||F
+45|SC,FR|COU,SEARCH|1|coupon filters broken by update||T
+46|SC|COU|1|coupon list reloads after clipping||T
+47|SP|PRICE,STAFF|5|sales, fresh produce, friendly staff||F
+48|SC|COU,PERK|2|coupons fail to clip, rewards fail at self-checkout||F
+49|SP|CRASH,DESIGN|5|fast and easy to navigate||F
+50|GG||4|||F
+51|SC|CP|1|update blocks checkout||T
+52|GG||5|||F
+53|SC|CP|1|can't reach payment after update||T
+54|SC|CP|1|payment won't work||F
+55|GB||1|||F
+56|SC|CP,SUP|1|order failed, no help, back to Heinen's|Heinen's|F
+57|SP|COU|4|good sales||F
+58|SC|LOGIN|1|can't stay signed in||F
+59|NS||3|||F
+60|SP|PHARM,STAFF|5|friendly pharmacy staff||F
+61|SC|COU|2|app items not discounted||F
+62|GG||5|||F
+63|GG||5|||F
+64|SP|PRICE,PICK|5|quality meat and bakery, pickup||F
+65|SC|CP|2|can't split Propel benefits and gift card||F
+66|SP|PICK,STAFF|5|curbside while injured||F
+67|SP|DEL,STAFF|5|delivery staff treat me like family||F
+68|GG||5|||F
+69|SC|PHARM|2|prescription management broken||F
+70|SP|STAFF|5|good shoppers||F
+71|SP|CHANGE|5|easy to edit order||F
+72|SC|CP|1|checkout errors||F
+73|SP|STAFF,DEL|5|polite preparers and drivers||F
+74|SP|COU|4|coupons applied||F
+75|GG||4|||F
+76|SC|LOGIN|1|password reset loop with email||F
+77|SC|LOGIN|1|403 login error||F
+78|SP|DEL|4|quick delivery||F
+79|SC|COU,PRIV|2|missing coupons, unrequested notifications||F
+80|SC|CRASH,CP|1|slow, glitchy, can't check out||F
+81|FR|CHANGE|4|see time slots before shopping||F
+82|SP|LIST,COU|5|reorder history, flyer, coupons||F
+83|SC|CP|1|checkout times out||F
+84|SP|PRICE|5|choices for the family||F
+85|SC|CP|2|payment glitchy, cart wiped||F
+86|SC|CP|2|can't buy gift cards||F
+87|SC|CRASH|2|lag deletes items||F
+88|SC|PRICE|1|too expensive||F
+89|SC|CRASH|1|app stopped working||F
+90|SC|CRASH|1|crashes on open||T
+91|SC|CRASH|1|app won't open||F
+92|SC|CRASH|1|crashes on open since update||T
+93|SP|CRASH|5|app works again||F
+94|SP|CRASH|5|glitch fixed||F
+95|SP|CRASH|5|works again||F
+96|GG||5|||F
+97|SC|CRASH|1|keeps crashing after reinstall||F
+98|SC|CHANGE|3|limited delivery times||F
+99|SC|LOGIN|3|sign-in keeps blocking||F
+100|SP|STAFF,QUAL|5|service and food quality||F
+101|SC|CP|1|card won't load at payment, switched to Wegmans|Wegmans|F
+102|SP|QUAL,PICK|5|accurate orders, curbside staff||F
+103|GG||5|||F
+104|SC|PHARM|1|prescription refill setup broken||F
+105|SP|STAFF,PRICE|5|friendly staff, always in stock||F
+106|GB||1|||F
+107|GB||1|||F
+108|SC|QUAL|2|missing items, old produce||F
+109|SC|LOGIN,PERK|2|signed out at the GetGo pump||F
+110|SP|TIME|5|helps an older, disabled shopper||F
+111|SP|STAFF|5|great staff||F
+112|SC|DEL,QUAL|1|items missing, fees exceed groceries||F
+113|SC|LOGIN|1|loses login||F
+114|SP|PICK|5|drive-up service||F
+115|SC|PERK,SUP|1|myPerks Pay PIN glitch, no support||F
+116|SP|TIME,STAFF|5|helps a full-time working family||F
+117|SC|COU|3|clip button unreliable, list jumps||F
+118|GB||2|||F
+119|SC|SCAN,COU|1|scanner fails, weighed sale prices wrong||F
+120|SP|DEL,PERK|5|delivery to facility, card discounts||F
+121|SC|LOGIN|1|login prohibited||F
+122|SP|STAFF,SUP|5|helpful service rep||F
+123|SP|PICK,STAFF|5|curbside helpers||F
+124|SC|SEARCH,CP|2|poor search for vegetarian items, CVV prompts||F
+125|SC|LOGIN|1|login not working||F
+126|SC|CRASH,PICK|1|app spins at pickup||F
+127|SP|DEL,QUAL|5|reliable delivery, good quality||F
+128|SC|CP,SUP|1|$300 order lost, no help||F
+129|SP,FR|STAFF,QUAL|5|shoppers pick produce, wants sort by department||F
+130|SP|STAFF,PRICE|5|friendly staff, clean stocked store||F
+131|SP|PRICE,STAFF|5|produce, choice, staff||F
+132|SP|STAFF,PERK|5|no car, bakery, staff, perks savings||F
+133|SP|TIME|5|helps when not well enough to shop||F
+134|SP|PICK|5|curbside||F
+135|SC|LOGIN,PRIV|1|must accept texts to sign in||T
+136|SC,SP|DESIGN|3|VoiceOver can't switch pickup or delivery||F
+137|SP|DEL,TIME|5|personal shopper for a non-driver||F
+138|SP|PICK,STAFF|5|pickup team helps working couple||F
+139|SP|PICK,STAFF|5|reliable shopper||F
+140|SC|PERK|1|can't activate perks on order||F
+141|SC|COU|1|rebates too hard||F
+142|SP|DEL|5|excellent delivery, error fixed||F
+143|SC|SCAN|1|Scan Pay & Go app useless||F
+144|SC|PRICE|2|out of stock||F
+145|GG||5|||F
+146|SP|PICK,STAFF|5|curbside staff||F
+147|SC|CP|1|SNAP/EBT not accepted||F
+148|SC|LOGIN|1|signup email code loop|Other|F
+149|GG||4|||F
+150|SC|CRASH|2|shuts down every use||F
+151|SC,SP|QUAL,TIME|3|disabled shopper, poorly picked produce||F
+152|SC|CRASH|1|frozen on install||F
+153|SP|PHARM|5|helpful pharmacy||F
+154|SP|TIME|5|makes hectic life easier||F
+155|SC|CHANGE,CP|2|errors changing pickup slot||T
+156|SC|CRASH,PERK|1|crash after update, card inactive||T
+157|SC|COU,PERK|1|coupons and wallet lock up||F
+158|SC|CRASH|1|slow in store with a toddler||F
+159|SC|LOGIN,CRASH|1|unusable in store, can't log in||F
+160|SP|TIME|5|helps a couple with physical disabilities||F
+161|SC|CRASH|1|won't open||F
+162|SC|CP,CRASH|1|reinstall to process payment||F

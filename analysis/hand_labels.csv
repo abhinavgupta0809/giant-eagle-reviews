@@ -1,0 +1,328 @@
+review_id,labels,categories,sentiment_rating,topic,competitors,regression_claim
+play_2f898e0c-bc7e-4a06-bd74-018f99103eac,Specific Complaint,Checkout & Payment,3,clunky delivery payment page,,FALSE
+play_d41d1192-4896-4e85-a897-6d025f3ab533,Specific Complaint,Checkout & Payment | Support & Refunds,1,"checkout error, can't send screenshot",,TRUE
+play_0524451e-5e74-4aaa-9ca9-fee7b55a920a,Specific Praise,Coupons & Deals | myPerks & Loyalty Card,5,easy to find coupons and track points,,FALSE
+ios_13997057926,Specific Praise,Saves Time & Effort,5,order after work instead of store lines,,FALSE
+ios_13999970020,Specific Praise,Staff & Service,5,associate helped find items,,FALSE
+play_4eab045d-4970-43c3-b7e3-9c80948ebfa6,Specific Complaint,Login & Sign-in,2,forced passkey blocks login,,TRUE
+play_3b8dd150-2c1d-4453-81ea-834c6faf3944,Generic Bad,,1,,,TRUE
+play_5e609874-66b4-4ff6-8f51-db62f44ccfbd,Specific Complaint,Search & Product Info | Coupons & Deals,1,"no item locations, rebates fail",,FALSE
+play_9b4abdb7-69cf-4f2e-9f0c-d5f323572f09,Generic Good,,5,,,FALSE
+play_2e462b62-2a9e-4618-8521-04b46cbe61dc,Specific Complaint,Login & Sign-in,2,locked out of account,,FALSE
+play_0219156b-f6f1-44bf-b25f-43f659dea508,Specific Complaint,Login & Sign-in,1,password reset code fails,,FALSE
+play_1ae87c4e-db2a-40a7-9992-9c05cec02eb5,Specific Complaint,Login & Sign-in,1,sign-in error popup,,FALSE
+play_3c702cf3-1b55-432e-a747-71821faf6a46,Specific Complaint,Login & Sign-in,1,keeps logging out,,FALSE
+play_b101240f-9a40-42af-96f9-fbcf5e54c405,Specific Complaint,myPerks & Loyalty Card | Checkout & Payment,1,myPerks Pay delayed charge and fee,,FALSE
+ios_14043435849,Specific Complaint | Feature Request,myPerks & Loyalty Card,2,widget won't show loyalty card,,FALSE
+play_7a58dc42-51b5-4dca-8252-d0cfbbad8a4f,Specific Praise,Staff & Service,5,shoppers call about order issues,,FALSE
+play_e8b65b5e-6273-46a3-b7fd-66666b8ca802,Generic Good,,5,,,FALSE
+play_7176ca34-012b-4a73-b145-380be755b4bb,Specific Complaint,Login & Sign-in | Checkout & Payment,1,"can't log in, cart lost",,FALSE
+play_d47be168-cf79-478b-b0ff-3e24f2197bb9,Specific Complaint,Login & Sign-in,1,"signed out, can't log back in",,FALSE
+play_240935a1-423f-480e-9a4d-946165255754,Specific Praise,Saves Time & Effort,5,helps with limited mobility,,FALSE
+play_fe05cc98-a2ee-47e1-ab75-c181ac471af6,Generic Good,,5,,,FALSE
+play_e29a587a-c5ac-4be4-8249-e3afd4eccac4,Specific Complaint,Crashes & Speed,1,crashes after updates,,TRUE
+play_be09a6d5-b105-41c1-a501-69c03c4df2bc,Specific Complaint,Search & Product Info,2,past item not available online,,FALSE
+play_79a2d0da-ab4b-43ab-9acc-2a25975b7865,Generic Good,,5,,,FALSE
+play_fa11b887-66ab-4625-90a3-8e1b173c6d6d,Specific Complaint,Delivery,2,time slot fee too high,,FALSE
+play_6d04258f-7a17-4b0e-b89c-5c0cd82bb002,Specific Complaint,Crashes & Speed,3,occasional timeouts,,FALSE
+play_24c2560d-074e-4f94-b2c2-cb6e70fb3353,Specific Complaint,Prices & Selection,1,too expensive,,FALSE
+play_cda9ef87-5e02-47fc-a0cb-931702f4b964,Specific Complaint | Feature Request,Delivery | Support & Refunds,1,can't edit tip or request refund in app,,FALSE
+ios_14110237869,Specific Complaint,Crashes & Speed,2,app lags,,FALSE
+play_de207488-2ce3-4396-be4d-1ffd213cc6a3,Specific Complaint,Crashes & Speed,2,"glitchy, needs reinstall",,FALSE
+ios_14111877911,Specific Complaint,Privacy & Permissions,2,location prompt every launch,,TRUE
+play_913e22fd-1c53-437b-be08-3b63950af627,Specific Complaint | Feature Request,Coupons & Deals,2,coupon food-only filter removed,,TRUE
+ios_14124970705,Specific Praise,Curbside Pickup,5,"order on phone, pick up at store",,FALSE
+play_791455a2-1340-4450-8ffd-39ee4e7e3813,Specific Complaint,Pharmacy | Login & Sign-in,1,separate pharmacy app and login,,FALSE
+ios_14134610861,Specific Complaint,Login & Sign-in,1,signed out after update,,TRUE
+play_b07fd8f1-91d0-4dea-84fb-c59a9ae8f6a4,Specific Complaint,Checkout & Payment,1,payment fails,,FALSE
+play_4aa0264f-9b06-49a6-a354-38cac682edcb,Specific Complaint,Crashes & Speed | Design & Navigation,2,glitchy and hard to navigate,,FALSE
+ios_14137397836,Specific Complaint | Feature Request,Order Changes & Time Slots | Search & Product Info,2,can't add items to a placed order,Instacart | Kroger,FALSE
+ios_14139398930,Specific Complaint,Prices & Selection | Coupons & Deals,1,"pricier than Heinen's, sale items run out",Heinen's,FALSE
+play_fcaac672-4c83-44cc-bbdc-eb269c7105a3,Generic Good,,5,,,FALSE
+play_1bf2a5ca-e24f-44fb-b9b1-6a008d6f3fd7,Specific Complaint,Login & Sign-in,2,email confirmation code fails,,FALSE
+ios_14151312088,Specific Complaint,Login & Sign-in,1,can't log in since update,,TRUE
+play_c94036b0-e33b-4c62-ab58-ffd1725fac43,Specific Praise,Curbside Pickup,5,online shopping and pickup,,FALSE
+play_0cd71a03-3eb4-495d-92c5-4badc482a6da,Specific Complaint,Delivery | Support & Refunds,1,"no delivery since myPerks launch, no reply",,TRUE
+play_325f48f1-ed77-4053-9e4d-1c22eed21944,Specific Complaint,Order Quality | Support & Refunds,1,"spoiled seafood, store refused help",DoorDash,FALSE
+play_bf1f65bc-fe6e-46f7-b0bf-6de265547f92,Specific Complaint | Feature Request,myPerks & Loyalty Card | Coupons & Deals,3,"card PIN reset freezes, wants more food coupons",,FALSE
+ios_14162453174,Specific Complaint,Login & Sign-in,2,"""too many requests"" at login",,FALSE
+play_ca79088f-8c90-4bca-b07e-3bdbd9bf963b,Specific Praise,myPerks & Loyalty Card | Curbside Pickup,5,perks and curbside,,FALSE
+play_741ad244-7ea6-4298-95a2-36845cfd3008,Generic Bad,,2,,,FALSE
+play_519a0680-bfac-4f16-b959-f58c1447c17e,Specific Complaint,Checkout & Payment,1,can't add items to cart after updates,Kroger | Sam's Club,TRUE
+ios_14179073229,Specific Complaint,myPerks & Loyalty Card,2,perks not applied at self-checkout,,FALSE
+play_9e7f6a7b-fd66-4b21-a003-57af468d73cb,Specific Praise,Prices & Selection,5,quality at a fair price,,FALSE
+play_0cbadcbd-4464-47a4-9ced-ad961145ec4c,Specific Complaint | Feature Request,Search & Product Info | Shopping List & Favorites,2,"search misses items, favorites reselect",,FALSE
+play_953aadbb-91f5-4880-8a8b-cc4815ff0ed0,Generic Bad,,1,,,FALSE
+ios_14194251599,Specific Praise,Staff & Service,5,polite young staff,,FALSE
+ios_14195801444,Specific Complaint | Feature Request,Shopping List & Favorites | Search & Product Info,2,"list redesign, wants aisle locator",,TRUE
+play_a9ea023f-04d5-4259-9cb8-2d74fbd8b425,Generic Good,,5,,,FALSE
+ios_14210257430,Specific Complaint | Feature Request,Prices & Selection,2,fewer organic options,,FALSE
+play_27f28eca-a746-4a2f-98e6-4661267e8dd9,Specific Complaint,Login & Sign-in,1,"logs out, can't log back in",,FALSE
+play_9bcb705a-40b8-45f2-9fec-695d411e1f04,Specific Praise,Curbside Pickup | Staff & Service,5,curbside staff,,FALSE
+play_4b086caa-9d6b-47c7-aaf2-b5a622254b09,Specific Complaint,Checkout & Payment | Support & Refunds,1,"payment system error, HQ no help",,FALSE
+play_0d8a13b7-0f63-476f-8f40-21ac42bd4299,Specific Complaint,Checkout & Payment,1,can't pay in app,,FALSE
+play_cd98723e-185c-4ef6-b2ec-c56604bf3f2c,Specific Complaint,Shopping List & Favorites,1,list broken by update,Meijer,TRUE
+play_e1e68cb7-0c8c-4213-b327-cd95b128257f,Specific Complaint,Checkout & Payment | Crashes & Speed,1,crashes at checkout after update,,TRUE
+play_d5bfde59-e089-4402-aa59-0babb5f5d1f2,Specific Praise,Staff & Service,5,associate goes above and beyond,,FALSE
+play_51e920c0-737d-47c8-b10f-05be2f95195b,Specific Complaint,Shopping List & Favorites,2,previously purchased filter removed,,TRUE
+ios_14245016292,Specific Praise,Staff & Service,5,shoppers who fill orders,,FALSE
+play_a1830856-7526-4cf4-930f-df362fb6cc5e,Specific Praise,myPerks & Loyalty Card,5,shows perks clearly,,FALSE
+play_0bc860d3-38f3-4cd1-99e0-8c2f8fb73c0b,Specific Complaint,Login & Sign-in | Search & Product Info,1,"can't sign in, search returns nothing",,FALSE
+play_2e1e03ea-8183-4ad2-86c5-6709b911bd7d,Specific Complaint,Checkout & Payment,2,UPMC Healthy Card not accepted online,,FALSE
+play_37ad712f-5e68-4c37-8263-d39bb8eddc9e,Specific Complaint,Login & Sign-in,1,can't sign in,,TRUE
+play_f8592c49-757a-453a-a500-4d1ead452257,Specific Complaint,Login & Sign-in,1,can't sign in or pick a store after update,,TRUE
+play_5d37f8f4-c93e-4b74-aab2-d8707cc25d04,Specific Complaint,Order Quality,1,poor pot pie quality,,FALSE
+play_bd8178bf-6392-4b5c-897a-c7d806fafafa,Specific Complaint | Feature Request,Coupons & Deals,2,coupon expiry filter removed,,TRUE
+play_b31fe94e-c7f2-4f37-8701-14f22d99faed,Specific Complaint,Privacy & Permissions,1,unclear why info is public,,FALSE
+ios_14315923703,Specific Complaint,Prices & Selection,1,prices too high,Trader Joe's,FALSE
+play_12403b48-05c9-46f1-beb4-7ae481bf25ad,Specific Complaint,Shopping List & Favorites,1,shopping list disappears,,FALSE
+play_813de098-baa9-4724-a721-1887358789b9,Specific Complaint,Checkout & Payment,2,payment won't process,,FALSE
+play_6714abac-b193-4540-96cb-df7d19daa7ca,Generic Good,,5,,,FALSE
+play_39ffe6ac-cb4f-48e8-9896-89be18ad0254,Specific Praise,Coupons & Deals,4,"easy app, lots of coupons",,FALSE
+ios_14326932273,Specific Praise,Order Quality | Staff & Service,5,accurate orders,,FALSE
+play_3ea3b3f7-6e36-4962-81a2-38723dfbbb93,Specific Praise,Curbside Pickup | Staff & Service,5,curbside staff,,FALSE
+play_4961a606-3a1e-4cb8-89f6-31ecf5a16cfd,Specific Complaint,Shopping List & Favorites | Barcode Scanner,1,list and scanner broken by updates,,TRUE
+play_887d0746-7fac-4b70-940c-58015da814fa,Specific Complaint,Checkout & Payment,1,payment won't load,,TRUE
+play_8ea81960-7047-42fd-970a-229a4fd2a3f1,Specific Complaint,Barcode Scanner,2,scanner stopped after update,,TRUE
+play_1bc720a3-30f7-44ec-90ff-ef3b3c1cb6e5,Specific Complaint,Barcode Scanner,1,scanner broken by update,,TRUE
+ios_14356691034,Specific Complaint | Feature Request,myPerks & Loyalty Card,2,loyalty card won't add to Wallet,,FALSE
+play_9a147c87-1f1f-4ce0-a818-1de72eb6da5e,Specific Complaint,Coupons & Deals | Support & Refunds,1,promotions and rebates misleading,,FALSE
+play_0bb57326-164d-43c8-a53a-48a50f8d07bc,Feature Request,Coupons & Deals,2,promo codes for repeat customers,,FALSE
+play_0c9c9bfe-3e0d-4f77-9187-0a70a90ee440,Specific Complaint,Design & Navigation,1,hard to use,,FALSE
+play_84258030-1ceb-422f-95d3-888690da3eb9,Specific Complaint,Barcode Scanner,1,price-check scanner gone,Kroger,TRUE
+play_d2f2e193-5231-494d-978a-46881d724a62,Specific Praise,Delivery | Staff & Service,5,"on-time, courteous delivery",,FALSE
+play_5046f1ba-844d-4a69-9ac4-30a1840a2e07,Specific Complaint,Barcode Scanner,1,scanner doesn't work,,FALSE
+play_0abf143f-23be-4c6c-9900-c78630d9a3dd,Specific Complaint,Barcode Scanner,1,scanner no longer works,,TRUE
+ios_14368697174,Specific Complaint | Specific Praise,myPerks & Loyalty Card,3,perks card missing from Apple Wallet,,FALSE
+play_dc879a45-e9cf-499d-bf08-c24bad600b8d,Generic Good,,5,,,FALSE
+ios_14371594636,Specific Praise,Curbside Pickup | Staff & Service,5,curbside staff,,FALSE
+play_0d61fdbd-778e-4c2b-a328-4f66d361f2c7,Specific Complaint,Delivery | Order Quality,2,"delivery missing items, especially sale items",,FALSE
+ios_14376640558,Specific Complaint,Login & Sign-in,1,can't log in after update,,TRUE
+ios_14380758810,Specific Complaint,Coupons & Deals | Search & Product Info,1,"deals outdated, items missing online",,FALSE
+play_8e8a390c-bef4-44d6-bb6c-12cc6025278a,Specific Complaint,Checkout & Payment | Crashes & Speed,1,"payment rarely accepted, glitches",,FALSE
+play_1f212c8c-ab03-40b5-9c3a-2a3cb17d0426,Specific Complaint,Checkout & Payment,2,can't check out,,FALSE
+ios_14397385623,Specific Complaint,Coupons & Deals | Crashes & Speed,2,promo codes never work,,FALSE
+play_fc98c6fb-2fb7-4b14-99dc-d01eda14b6ff,Specific Praise,Coupons & Deals,5,good BOGO sales,,FALSE
+play_6f9d1724-48bb-479a-b3e6-231806e9f948,Specific Complaint,Crashes & Speed,1,app won't download,,FALSE
+ios_14416749584,Specific Complaint,Login & Sign-in,1,can't log in to buy gift cards,,FALSE
+play_26bdf6c9-c7a7-41ff-8a6a-92c2a080ae19,Specific Praise,Staff & Service | Saves Time & Effort,5,"on time, kind workers",,FALSE
+ios_14434922973,Specific Praise,Saves Time & Effort,5,saved time before going back to school,,FALSE
+play_1a7ce9c3-79ea-4eaf-81e6-36e26b055f55,Specific Praise,Curbside Pickup | Staff & Service,5,"easy pickup, helpful staff",,FALSE
+play_7a833222-cc7a-4c80-96d6-5a86d45751f5,Generic Good,,4,,,FALSE
+ios_14444129429,Specific Complaint,Crashes & Speed,1,crashes after update,,TRUE
+play_32521478-16f2-4d07-ba95-5844f986f083,Specific Complaint,Login & Sign-in,1,"signs out, passkey prompt crashes",,FALSE
+play_85fd5b1a-041f-44c8-91e3-5b23046325d4,Generic Good,,5,,,FALSE
+play_262c641b-3f30-46dc-a8c4-33656720c158,Specific Complaint,Design & Navigation | Checkout & Payment,2,confusing checkout flow,,FALSE
+play_f62ebcd4-237b-4cdd-b453-6e810a43d4f5,Specific Praise,Prices & Selection,5,"clean, well-stocked store",,FALSE
+play_aa13c619-73f8-473b-8c65-73eb204473db,Specific Complaint,Checkout & Payment,1,can't check out,,FALSE
+ios_14461734227,Specific Complaint,Support & Refunds | Design & Navigation,3,hard to get help with an order,,FALSE
+play_07dfe3b3-027d-49dd-af35-578f4ac1286b,Generic Good,,5,,,FALSE
+play_9f276619-f48d-4216-ad99-5eab942aa91b,Specific Complaint,Crashes & Speed | Prices & Selection,2,"slower than Kroger's app, high prices",Kroger,FALSE
+ios_14483993390,Specific Praise,Curbside Pickup | Staff & Service,5,curbside staff,,FALSE
+ios_14486557902,Specific Praise,Staff & Service | Prices & Selection,5,"friendly staff, has what I need",,FALSE
+play_ea664e1c-b309-4fbc-ad1b-9d7511960d36,Specific Complaint,Prices & Selection,2,limited brands,,FALSE
+ios_14488143699,Specific Complaint,Coupons & Deals,1,coupon didn't apply in full,,FALSE
+play_a8ac6d0a-a42b-4686-bebe-185e0f1cb23a,Specific Complaint,Delivery | Design & Navigation,1,delivery fees higher than Instacart,Instacart,FALSE
+ios_14502494417,Specific Complaint,Privacy & Permissions | myPerks & Loyalty Card,1,birth date required to link card,,FALSE
+play_02732d50-f814-4425-8418-998ad0e34483,Specific Praise,Coupons & Deals,5,coupons flagged on products,,FALSE
+play_5f430880-f05c-4889-bea4-941d84e810d6,Specific Complaint,Search & Product Info,3,hard to find a specific brand,,FALSE
+ios_14509600499,Specific Complaint,Crashes & Speed,2,stuck loading half the time,,FALSE
+play_6cc5e338-9688-43f0-a523-4f9c9dedb34a,Specific Praise,Staff & Service,5,order pickers,,FALSE
+play_497d0145-5dcc-4f26-b869-4403ad9bfe98,Generic Good,,5,,,FALSE
+play_e46267b4-04d3-46d3-ba90-105bea0ad89c,Generic Good,,5,,,FALSE
+play_22271c05-6d6a-4183-83d6-1ba5d41b83a7,Generic Bad,,1,,,FALSE
+ios_14527077891,Specific Complaint,Login & Sign-in,1,"signed out every time, no signal in store",,FALSE
+play_8cfab050-35a8-42ff-a9fd-625af71df429,Specific Praise,Delivery | Saves Time & Effort,5,delivery without a car,,FALSE
+play_a42330fb-2d75-4bd5-840d-709a74205acc,Generic Good,,5,,,FALSE
+play_48c8f71f-c796-4b4f-acc1-86ae16ac20c0,Specific Complaint,Privacy & Permissions,1,lock screen required,,FALSE
+play_2b3130e4-4dba-4d4a-98d6-beffbf26a543,Generic Good,,5,,,FALSE
+play_ec059bd0-b8b3-465f-a3ac-6f162d918761,Specific Complaint,Coupons & Deals,2,coupon expiry dates gone,,TRUE
+play_1c1fa3a8-8568-4e6b-bb55-d27c8be7fc90,Generic Good,,5,,,FALSE
+play_fa1c2506-0375-40e7-9b4a-96a75c56b1e2,Specific Complaint,Design & Navigation,2,confusing for older users,,FALSE
+play_c2f91bab-5a70-4c8a-b065-99cfa985161d,Specific Complaint,Crashes & Speed,3,reinstall to fix problems,,FALSE
+ios_14560968083,Specific Praise,Design & Navigation,5,easier than the website,,FALSE
+play_d79152e7-b95c-4d21-b38a-2b0343dba988,Specific Praise,Saves Time & Effort,5,"can't walk the store, app helps",,FALSE
+ios_14577711207,Specific Complaint,Delivery,2,bag fee on delivery,,FALSE
+play_9ffd2e4d-bbb8-4866-b562-d2d96fe06f4e,Generic Good,,5,,,FALSE
+play_dacdc730-dab7-4ecb-86b5-70ece44eff43,Specific Complaint,Pharmacy | Design & Navigation,1,pharmacy section glitchy,Kroger,FALSE
+play_3901c4bf-7392-4ad2-9a1e-51618dd5e864,Specific Complaint,Delivery | Order Quality,2,"missed drop-off, poor beef",,FALSE
+play_90286d29-d117-46b6-bfdd-e7a3acbf7191,Feature Request | Specific Praise,Delivery,3,tip as a percent of order,,FALSE
+play_0c8884d0-c1fd-4440-876b-f33052ca06e1,Specific Praise,Saves Time & Effort,5,groceries when too busy,,FALSE
+play_4b283589-289b-44ee-bef2-a163953b7bf1,Specific Complaint,Login & Sign-in,1,signs out at the register,,FALSE
+play_fe9aec16-477c-46aa-9d34-4055084081f7,Specific Complaint | Specific Praise,Prices & Selection | myPerks & Loyalty Card,3,"good quality, pricey even with perks",,FALSE
+play_3c3f1084-094d-44b9-a4b3-69fef210130c,Generic Good,,5,,,FALSE
+ios_14599486464,Specific Praise,Curbside Pickup | Staff & Service,5,"curbside staff, long work hours",,FALSE
+ios_14607886245,Specific Praise,Curbside Pickup | Saves Time & Effort,5,family pickup on the way home,,FALSE
+play_a5cf5028-768c-4acd-9ff1-6e9e5cea9398,Specific Complaint,Shopping List & Favorites | Support & Refunds,2,"favorites hidden, no support reply",,FALSE
+ios_14633877707,Specific Complaint,Checkout & Payment | Crashes & Speed,1,five tries to confirm pickup order,,FALSE
+play_e78858fa-5f5e-4fa4-ba89-43db940febbc,Specific Praise,Search & Product Info,5,easy to look up prices,,FALSE
+play_b42df5f5-97ca-4338-bc8e-4d9bfa304a6b,Generic Good,,5,,,FALSE
+ios_14643384404,Specific Complaint,Crashes & Speed | Coupons & Deals,1,"crashes, sale prices not applied",,FALSE
+play_b7cb5438-b1f5-48d2-a9a0-4da36e64bf14,Specific Complaint,Order Changes & Time Slots,2,adding items risks losing time slot,,FALSE
+play_b5ee1ad3-d98a-4947-a5b0-81bd45436b30,Specific Complaint,Checkout & Payment,1,payment fails for a month,,FALSE
+play_10dbd245-63b3-43d0-87e8-1f71bc380f13,Specific Complaint,Login & Sign-in | Support & Refunds,1,"can't log in, no developer contact",,FALSE
+play_5335a525-25d9-4075-b3be-a79099047b75,Specific Complaint,Login & Sign-in,1,asked to log in at the register,,FALSE
+play_1b23ba8a-fd70-4e15-ae18-ec1773afd6e6,Specific Complaint,Crashes & Speed,1,app says invalid,,FALSE
+play_fb296e82-233c-4629-98d3-23c4e7052bbf,Specific Complaint,Search & Product Info,2,"hard to find items, departments missing",,FALSE
+ios_13306053955,Specific Praise,Staff & Service | Coupons & Deals,5,"service, convenience, savings",,FALSE
+play_79eac717-5e00-4cbf-acdf-f588737a1be1,Generic Good,,5,,,FALSE
+ios_13316998612,Specific Complaint,Crashes & Speed | Coupons & Deals,1,"app won't load for months, no coupons or card",,FALSE
+ios_13321121695,Specific Praise,Design & Navigation | Coupons & Deals,5,"easy to move through, right sales",,FALSE
+play_5f78edd2-595c-49b7-b481-cd9206c43e16,Specific Praise,Design & Navigation | Curbside Pickup,5,easy weekly curbside ordering,,FALSE
+play_514f4223-87c7-4ad8-a043-5e59288e540c,Generic Good,,5,,,FALSE
+play_d2a07377-8202-4eb5-8ec0-cdcfd9c9d6ff,Specific Complaint,Login & Sign-in | Crashes & Speed,1,can't log in after update,,TRUE
+play_1a9b4e0f-8100-415f-b9ae-29e0a4d74438,Generic Good,,4,,,FALSE
+play_f34557df-bd54-4d8e-9ae6-e987a1e718a9,Generic Bad,,1,,,FALSE
+ios_13340305816,Specific Complaint,Coupons & Deals | Support & Refunds,3,"coupon search fires too early, support link broken",,FALSE
+ios_13342945420,Specific Complaint,Crashes & Speed,1,error loading stores since update,,TRUE
+play_10e9345b-0476-404f-a98f-8df5eb5208b1,Specific Complaint,Login & Sign-in | myPerks & Loyalty Card,1,"can't log in to get points, connection error",,FALSE
+play_d0f01521-3da7-4cb8-ab1b-2f0876100a7c,Specific Complaint,Search & Product Info,1,products not showing after update,,TRUE
+ios_13345560344,Specific Complaint,Crashes & Speed,1,app not loading for days,,FALSE
+play_280f4506-f623-454f-ad4a-360e60192054,Specific Complaint,Crashes & Speed,1,update broke mobile data connection,,TRUE
+ios_13348120661,Specific Complaint,Crashes & Speed | myPerks & Loyalty Card,1,"nothing loads, no card, no stores after update",,TRUE
+play_3ded926d-23c2-4bc3-859d-b624c865a8d2,Specific Complaint,Crashes & Speed | Curbside Pickup,1,"connection errors, freezes at curbside",,FALSE
+play_113fb537-7967-42ae-a8b7-0871cf2cd4d8,Specific Complaint,Crashes & Speed,1,says no internet connection,,TRUE
+ios_13350726004,Specific Complaint,Crashes & Speed,1,can't set a store,,FALSE
+ios_13351401405,Specific Complaint,Crashes & Speed,2,store won't load on cellular since update,,TRUE
+ios_13351424715,Specific Complaint,Crashes & Speed,1,"can't find stores, won't load",,TRUE
+ios_13352074115,Specific Complaint,Login & Sign-in | Crashes & Speed,1,"logs out, won't reinstall",,FALSE
+play_163b5710-ce4a-4371-8a2c-33c1223d5703,Specific Complaint,Login & Sign-in,1,"sign-in error, says no internet",,FALSE
+ios_13355193077,Feature Request | Specific Praise,Recipes & Meal Ideas | Shopping List & Favorites,3,"save recipes, add all ingredients",,FALSE
+play_3b62a6f6-a494-40e4-93cb-d11d9828f1cd,Specific Complaint,Crashes & Speed,1,timeout error after update,,TRUE
+play_c58782dc-ca9a-4126-923a-61268bf39284,Specific Complaint,Login & Sign-in | myPerks & Loyalty Card,1,"booted out, can't sign in to scan card",,FALSE
+play_d284748a-52c0-495a-9e60-a5493e1898cd,Specific Complaint,Checkout & Payment | Crashes & Speed,1,can't order since Nov 1,,TRUE
+ios_13377533861,Specific Praise,Staff & Service,5,staff know the regulars,,FALSE
+play_c18a0465-af5b-4c95-a62f-ea5e0328299d,Specific Complaint | Specific Praise,Prices & Selection | Staff & Service,2,"high prices, great employees",,FALSE
+play_1817de7e-c148-4cab-a176-b3c93f3a9ec7,Specific Complaint,Checkout & Payment,3,"SNAP payment problem, resolved",,FALSE
+ios_13379403951,Specific Praise,Delivery | Staff & Service,5,"on-time, friendly service",,FALSE
+play_40dd06d2-51de-449a-8dc7-548a1a0f21fd,Specific Complaint,Search & Product Info,2,app missing items carried in store,,FALSE
+play_63ab2a69-a483-482f-9282-6682b2d1123f,Specific Complaint,Checkout & Payment,2,"checkout needs repeated taps, no error shown",,FALSE
+play_2a691da3-c57b-492f-b870-d4ad285acca8,Specific Praise,Order Changes & Time Slots | Coupons & Deals,5,"substitution notes, circular, coupons",,FALSE
+play_f5d76fa1-b36f-4af0-9cb6-8903f2085522,Specific Praise,Staff & Service,5,shoppers call when unsure,,FALSE
+play_5ae43d8e-6848-4029-994e-27d0feefd1ed,Feature Request,Shopping List & Favorites,3,delete old previously purchased items,,FALSE
+play_ef9e069d-0095-4b71-9638-933b13045c99,Specific Praise,Prices & Selection,5,variety,,FALSE
+play_0bbf7e59-798a-444b-a350-80e8cd887e48,Specific Complaint | Specific Praise,Delivery | Order Quality,3,drivers crush bags,,FALSE
+play_9c0892f7-fc74-498b-9999-2738b17098d5,Specific Complaint,Order Changes & Time Slots,1,no substitutions on alcohol,,FALSE
+play_a44259a1-a639-49ca-98ce-66c9e61429e1,Specific Complaint,Design & Navigation | Pharmacy,1,"hard to navigate, pharmacy sign-in freezes",,FALSE
+ios_13432573960,Generic Good,,5,,,FALSE
+play_1fa8c8a7-fa53-417b-9e36-c1d97897a8e8,Generic Good,,5,,,FALSE
+play_6f62b532-abd1-4ffd-b3a0-d5270a9f64d6,Generic Good,,5,,,FALSE
+play_43d5eb08-5a68-4e9a-ac2f-54b0f68a2264,Generic Good,,5,,,FALSE
+ios_13452165883,Specific Complaint | Feature Request,Coupons & Deals | Search & Product Info,1,coupon filters broken by update,,TRUE
+ios_13455013543,Specific Complaint,Coupons & Deals,1,coupon list reloads after clipping,,TRUE
+play_5222333e-4ab4-4894-bb76-37a49bf15c57,Specific Praise,Prices & Selection | Staff & Service,5,"sales, fresh produce, friendly staff",,FALSE
+ios_13459462900,Specific Complaint,Coupons & Deals | myPerks & Loyalty Card,2,"coupons fail to clip, rewards fail at self-checkout",,FALSE
+play_3a4e4f0f-611a-491b-9486-c9a3c81b5294,Specific Praise,Crashes & Speed | Design & Navigation,5,fast and easy to navigate,,FALSE
+play_e3acc72d-36e9-458a-b908-c8b29d40095a,Generic Good,,4,,,FALSE
+play_9b69adc0-08d0-4aeb-a3a8-5288a346e4f5,Specific Complaint,Checkout & Payment,1,update blocks checkout,,TRUE
+play_94bc293b-3f23-4d97-9e62-4b179690f74d,Generic Good,,5,,,FALSE
+play_3a8eca29-57ce-4247-9cec-b85489a0ff34,Specific Complaint,Checkout & Payment,1,can't reach payment after update,,TRUE
+play_e3c3e1a9-8624-4efb-96ce-b67c75426c45,Specific Complaint,Checkout & Payment,1,payment won't work,,FALSE
+play_e2bcfc79-0374-4035-b3e0-ffe38c51c5ca,Generic Bad,,1,,,FALSE
+play_47c0abc0-44e9-4006-b431-f134959f3c8b,Specific Complaint,Checkout & Payment | Support & Refunds,1,"order failed, no help, back to Heinen's",Heinen's,FALSE
+play_763227c7-115c-4f01-a28d-34da4af18237,Specific Praise,Coupons & Deals,4,good sales,,FALSE
+play_41c88557-bd8e-4a2b-b835-1fe2ebfb1db3,Specific Complaint,Login & Sign-in,1,can't stay signed in,,FALSE
+ios_13503280412,Nonsense,,3,,,FALSE
+play_7d6fb1df-756a-41ca-b872-183e2aa137ce,Specific Praise,Pharmacy | Staff & Service,5,friendly pharmacy staff,,FALSE
+ios_13512742918,Specific Complaint,Coupons & Deals,2,app items not discounted,,FALSE
+play_2f94ee21-7629-4c23-a923-74e36fd924d6,Generic Good,,5,,,FALSE
+play_e95d264b-d9c8-49fe-b4fc-f3e91ff42285,Generic Good,,5,,,FALSE
+ios_13523969708,Specific Praise,Prices & Selection | Curbside Pickup,5,"quality meat and bakery, pickup",,FALSE
+play_93bfbacf-a341-4495-9991-5a63156aa15c,Specific Complaint,Checkout & Payment,2,can't split Propel benefits and gift card,,FALSE
+play_8c7476d2-32f9-45eb-a7c9-08a236cf1565,Specific Praise,Curbside Pickup | Staff & Service,5,curbside while injured,,FALSE
+play_f6aafbf7-c3a2-406c-8d5f-79b51e51b8e9,Specific Praise,Delivery | Staff & Service,5,delivery staff treat me like family,,FALSE
+play_867ab500-c975-4c21-8918-23afe578a86f,Generic Good,,5,,,FALSE
+play_6784ab08-c2af-4704-b8ef-7f3315e2a684,Specific Complaint,Pharmacy,2,prescription management broken,,FALSE
+play_e3f5bc3f-d6ae-40d7-9cb2-d8a3e5b7aa30,Specific Praise,Staff & Service,5,good shoppers,,FALSE
+ios_13539954882,Specific Praise,Order Changes & Time Slots,5,easy to edit order,,FALSE
+ios_13546732061,Specific Complaint,Checkout & Payment,1,checkout errors,,FALSE
+play_38e5ffac-7b56-47e4-9bc8-2c800ea958cd,Specific Praise,Staff & Service | Delivery,5,polite preparers and drivers,,FALSE
+play_190d4187-2d22-4f9d-b829-03646d20f39a,Specific Praise,Coupons & Deals,4,coupons applied,,FALSE
+play_566e1cfd-f2f3-40a9-951a-b4d01afbd6a3,Generic Good,,4,,,FALSE
+play_fdbe3ff8-39f2-4a0d-96c3-457ce0b30eed,Specific Complaint,Login & Sign-in,1,password reset loop with email,,FALSE
+play_2049dfbf-8c8d-4406-a2e3-bf03daeb2c39,Specific Complaint,Login & Sign-in,1,403 login error,,FALSE
+play_a3b04f13-63dd-4ae5-ad7d-916b5737de3f,Specific Praise,Delivery,4,quick delivery,,FALSE
+ios_13605382193,Specific Complaint,Coupons & Deals | Privacy & Permissions,2,"missing coupons, unrequested notifications",,FALSE
+play_e851ad6e-5fab-43e7-87d7-e423c1c44eea,Specific Complaint,Crashes & Speed | Checkout & Payment,1,"slow, glitchy, can't check out",,FALSE
+ios_13614063772,Feature Request,Order Changes & Time Slots,4,see time slots before shopping,,FALSE
+ios_13619409210,Specific Praise,Shopping List & Favorites | Coupons & Deals,5,"reorder history, flyer, coupons",,FALSE
+play_35279346-f836-4c54-a16f-79c96d0e4ec3,Specific Complaint,Checkout & Payment,1,checkout times out,,FALSE
+ios_13629061249,Specific Praise,Prices & Selection,5,choices for the family,,FALSE
+ios_13641955506,Specific Complaint,Checkout & Payment,2,"payment glitchy, cart wiped",,FALSE
+play_a952b328-4133-4d33-a29b-3759a712d541,Specific Complaint,Checkout & Payment,2,can't buy gift cards,,FALSE
+play_39431025-8974-4ae5-831a-b9828febaf56,Specific Complaint,Crashes & Speed,2,lag deletes items,,FALSE
+ios_13648281469,Specific Complaint,Prices & Selection,1,too expensive,,FALSE
+play_c72d761d-5a2c-45f7-97fc-ce49d22242da,Specific Complaint,Crashes & Speed,1,app stopped working,,FALSE
+play_8869373c-98e3-483c-a4d2-221e915daf47,Specific Complaint,Crashes & Speed,1,crashes on open,,TRUE
+play_a6898933-8c08-4b77-89ca-a2ab4e967c2b,Specific Complaint,Crashes & Speed,1,app won't open,,FALSE
+play_8db92ac0-cb98-4625-8e87-87a4caa655a0,Specific Complaint,Crashes & Speed,1,crashes on open since update,,TRUE
+play_20148dcc-8971-4394-87b2-cdf5580ecb37,Specific Praise,Crashes & Speed,5,app works again,,FALSE
+play_f8f9fefe-53e0-4670-ac1f-a3b3151c18d7,Specific Praise,Crashes & Speed,5,glitch fixed,,FALSE
+play_155e265b-d393-44d7-b932-7f94f15909e2,Specific Praise,Crashes & Speed,5,works again,,FALSE
+play_4a33b2a9-8ab7-4af3-b0bd-976aa264a768,Generic Good,,5,,,FALSE
+play_9555c232-e750-4275-9609-6353e4d7ed3e,Specific Complaint,Crashes & Speed,1,keeps crashing after reinstall,,FALSE
+play_4821648d-8b2d-4307-a95d-0934ed785f6d,Specific Complaint,Order Changes & Time Slots,3,limited delivery times,,FALSE
+play_802d55a3-ff2b-4293-a37e-a8a7d663ce27,Specific Complaint,Login & Sign-in,3,sign-in keeps blocking,,FALSE
+ios_13669935293,Specific Praise,Staff & Service | Order Quality,5,service and food quality,,FALSE
+play_e705235c-6bcd-4c78-8d28-fe93709b580e,Specific Complaint,Checkout & Payment,1,"card won't load at payment, switched to Wegmans",Wegmans,FALSE
+play_b9790dd2-6ae3-4418-be39-06abddbe7836,Specific Praise,Order Quality | Curbside Pickup,5,"accurate orders, curbside staff",,FALSE
+play_5cc35295-6432-414a-9df3-d8518390f036,Generic Good,,5,,,FALSE
+play_e2b65992-827e-4835-8bcb-07edf41a9ae3,Specific Complaint,Pharmacy,1,prescription refill setup broken,,FALSE
+play_9de4dc4b-19ad-418d-a9c1-42c04de524e9,Specific Praise,Staff & Service | Prices & Selection,5,"friendly staff, always in stock",,FALSE
+play_a8daee36-102e-4351-b333-664a36226a95,Generic Bad,,1,,,FALSE
+play_85b23181-2656-43ff-869c-0e1df7985373,Generic Bad,,1,,,FALSE
+play_a45d9d99-e233-47f1-b98d-f137213ad52d,Specific Complaint,Order Quality,2,"missing items, old produce",,FALSE
+play_cb52d019-86be-4d17-ad59-5c283b46d4d3,Specific Complaint,Login & Sign-in | myPerks & Loyalty Card,2,signed out at the GetGo pump,,FALSE
+play_fce1e665-c85e-4f2f-b13f-629a12560489,Specific Praise,Saves Time & Effort,5,"helps an older, disabled shopper",,FALSE
+play_6e9075c6-3d0d-44c8-b46f-324faab36b79,Specific Praise,Staff & Service,5,great staff,,FALSE
+play_5e6b3054-1eed-4708-b9a3-ca6a0677a230,Specific Complaint,Delivery | Order Quality,1,"items missing, fees exceed groceries",,FALSE
+play_17f492b7-6dbf-4852-8802-8a81825e1d69,Specific Complaint,Login & Sign-in,1,loses login,,FALSE
+play_20148130-0b70-437e-b9ff-11a9fbf6ae42,Specific Praise,Curbside Pickup,5,drive-up service,,FALSE
+ios_13738709931,Specific Complaint,myPerks & Loyalty Card | Support & Refunds,1,"myPerks Pay PIN glitch, no support",,FALSE
+play_448eaa07-79bd-4239-b5e5-131ff0b6ea7b,Specific Praise,Saves Time & Effort | Staff & Service,5,helps a full-time working family,,FALSE
+play_e99020a6-e200-4ffc-87e5-a56e2145b544,Specific Complaint,Coupons & Deals,3,"clip button unreliable, list jumps",,FALSE
+ios_13742184122,Generic Bad,,2,,,FALSE
+play_cc8b784c-7996-4448-a44e-a7ebc657d0e7,Specific Complaint,Barcode Scanner | Coupons & Deals,1,"scanner fails, weighed sale prices wrong",,FALSE
+play_fec69cc0-4111-497f-b714-c454098f241c,Specific Praise,Delivery | myPerks & Loyalty Card,5,"delivery to facility, card discounts",,FALSE
+play_8342c236-8d76-4dcd-ae7f-827ed1b13dff,Specific Complaint,Login & Sign-in,1,login prohibited,,FALSE
+ios_13784987205,Specific Praise,Staff & Service | Support & Refunds,5,helpful service rep,,FALSE
+ios_13786661453,Specific Praise,Curbside Pickup | Staff & Service,5,curbside helpers,,FALSE
+ios_13794529671,Specific Complaint,Search & Product Info | Checkout & Payment,2,"poor search for vegetarian items, CVV prompts",,FALSE
+play_97588587-ca7d-45df-81de-de3e7054558b,Specific Complaint,Login & Sign-in,1,login not working,,FALSE
+play_93c523fb-5e54-4ee1-8e3e-adc4921333be,Specific Complaint,Crashes & Speed | Curbside Pickup,1,app spins at pickup,,FALSE
+play_1ed09295-afaa-4414-8443-ea94df78f6fa,Specific Praise,Delivery | Order Quality,5,"reliable delivery, good quality",,FALSE
+play_30da1f3b-94d0-4dc1-92d9-02c19ea5c3b8,Specific Complaint,Checkout & Payment | Support & Refunds,1,"$300 order lost, no help",,FALSE
+ios_13820843712,Specific Praise | Feature Request,Staff & Service | Order Quality,5,"shoppers pick produce, wants sort by department",,FALSE
+play_ef2c5b91-3034-4f91-8c58-2db73a2cda23,Specific Praise,Staff & Service | Prices & Selection,5,"friendly staff, clean stocked store",,FALSE
+play_df884c15-92e4-4b0d-a564-c2388a870a98,Specific Praise,Prices & Selection | Staff & Service,5,"produce, choice, staff",,FALSE
+play_b6a532f9-a5a7-4ac0-aedf-9417e2a007e4,Specific Praise,Staff & Service | myPerks & Loyalty Card,5,"no car, bakery, staff, perks savings",,FALSE
+ios_13827153694,Specific Praise,Saves Time & Effort,5,helps when not well enough to shop,,FALSE
+play_7a002a7f-f5fe-4ee3-8b94-2706882146ec,Specific Praise,Curbside Pickup,5,curbside,,FALSE
+play_d7e2d422-5be8-4a71-ac15-c9b1045c8cf8,Specific Complaint,Login & Sign-in | Privacy & Permissions,1,must accept texts to sign in,,TRUE
+ios_13847801353,Specific Complaint | Specific Praise,Design & Navigation,3,VoiceOver can't switch pickup or delivery,,FALSE
+play_2534fec2-3a40-49af-80ed-c9808035c925,Specific Praise,Delivery | Saves Time & Effort,5,personal shopper for a non-driver,,FALSE
+ios_13864553907,Specific Praise,Curbside Pickup | Staff & Service,5,pickup team helps working couple,,FALSE
+ios_13865046065,Specific Praise,Curbside Pickup | Staff & Service,5,reliable shopper,,FALSE
+ios_13865146442,Specific Complaint,myPerks & Loyalty Card,1,can't activate perks on order,,FALSE
+play_eaa86f2e-4fa7-4a54-b410-6ba2e4b64701,Specific Complaint,Coupons & Deals,1,rebates too hard,,FALSE
+play_d5317b89-c632-4808-b695-933ffd0313ba,Specific Praise,Delivery,5,"excellent delivery, error fixed",,FALSE
+ios_13878544374,Specific Complaint,Barcode Scanner,1,Scan Pay & Go app useless,,FALSE
+play_677fd71e-9249-4ec1-9de0-c3694609f944,Specific Complaint,Prices & Selection,2,out of stock,,FALSE
+play_5fe2d559-2d80-49d2-a07e-f67fa6f2a4f1,Generic Good,,5,,,FALSE
+ios_13888872805,Specific Praise,Curbside Pickup | Staff & Service,5,curbside staff,,FALSE
+play_17971096-fbe5-4298-ad5a-a5ac7bca6cc1,Specific Complaint,Checkout & Payment,1,SNAP/EBT not accepted,,FALSE
+play_ef560ebb-1376-4969-b73a-a51616d7c867,Specific Complaint,Login & Sign-in,1,signup email code loop,Other,FALSE
+play_db208442-f02a-4560-965b-9957e5dd05aa,Generic Good,,4,,,FALSE
+play_228caf0c-9296-4c6a-b15c-73fc849010fe,Specific Complaint,Crashes & Speed,2,shuts down every use,,FALSE
+play_6b54ad1c-f3a4-4052-a5aa-dc8778c5ad85,Specific Complaint | Specific Praise,Order Quality | Saves Time & Effort,3,"disabled shopper, poorly picked produce",,FALSE
+play_0424666a-2ec2-49c8-9324-f6361f8ea55f,Specific Complaint,Crashes & Speed,1,frozen on install,,FALSE
+play_e9b79aaf-a196-42b8-ba2e-790288f37c52,Specific Praise,Pharmacy,5,helpful pharmacy,,FALSE
+play_6af45a7c-0517-419b-ade9-e120972c3258,Specific Praise,Saves Time & Effort,5,makes hectic life easier,,FALSE
+play_af65b04a-de6a-42e4-a90a-cdd5f1ff6fa4,Specific Complaint,Order Changes & Time Slots | Checkout & Payment,2,errors changing pickup slot,,TRUE
+ios_13950344288,Specific Complaint,Crashes & Speed | myPerks & Loyalty Card,1,"crash after update, card inactive",,TRUE
+play_d1e69388-0051-4f35-a3e2-ddef0d928c1c,Specific Complaint,Coupons & Deals | myPerks & Loyalty Card,1,coupons and wallet lock up,,FALSE
+play_1b092e31-eb42-430c-965f-413a03feb587,Specific Complaint,Crashes & Speed,1,slow in store with a toddler,,FALSE
+play_ae060a18-67e2-4fb6-9fe9-a8a659f27f57,Specific Complaint,Login & Sign-in | Crashes & Speed,1,"unusable in store, can't log in",,FALSE
+play_a0fde77b-0bda-40a2-a6fc-8815cb0f730f,Specific Praise,Saves Time & Effort,5,helps a couple with physical disabilities,,FALSE
+ios_13964316940,Specific Complaint,Crashes & Speed,1,won't open,,FALSE
+play_2945f630-ec85-49c0-9042-b8af5995420b,Specific Complaint,Checkout & Payment | Crashes & Speed,1,reinstall to process payment,,FALSE

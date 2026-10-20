@@ -1,0 +1,19 @@
+{
+ "about": "Test fixture",
+ "rows": [
+  {
+   "bet": "Fixture bet",
+   "quote": "fixture quote",
+   "source_label": "Fixture filing",
+   "source_url": "https://www.sec.gov/",
+   "category": "Answer Accuracy",
+   "reading": "Fixture reading."
+  }
+ ],
+ "sources": [
+  {
+   "label": "Fixture filing",
+   "url": "https://www.sec.gov/"
+  }
+ ]
+}

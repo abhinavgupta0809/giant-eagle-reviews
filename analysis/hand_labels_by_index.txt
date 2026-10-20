@@ -1,0 +1,165 @@
+# index | labels | categories | sentiment | topic | competitors | regression
+0|SC|CP|3|clunky delivery payment page||F
+1|SC|CP,SUP|1|checkout error, can't send screenshot||T
+2|SP|COU,PERK|5|easy to find coupons and track points||F
+3|SP|TIME|5|order after work instead of store lines||F
+4|SP|STAFF|5|associate helped find items||F
+5|SC|LOGIN|2|forced passkey blocks login||T
+6|GB||1|||T
+7|SC|SEARCH,COU|1|no item locations, rebates fail||F
+8|GG||5|||F
+9|SC|LOGIN|2|locked out of account||F
+10|SC|LOGIN|1|password reset code fails||F
+11|SC|LOGIN|1|sign-in error popup||F
+12|SC|LOGIN|1|keeps logging out||F
+13|SC|PERK,CP|1|myPerks Pay delayed charge and fee||F
+14|SC,FR|PERK|2|widget won't show loyalty card||F
+15|SP|STAFF|5|shoppers call about order issues||F
+16|GG||5|||F
+17|SC|LOGIN,CP|1|can't log in, cart lost||F
+18|SC|LOGIN|1|signed out, can't log back in||F
+19|SP|TIME|5|helps with limited mobility||F
+20|GG||5|||F
+21|SC|CRASH|1|crashes after updates||T
+22|SC|SEARCH|2|past item not available online||F
+23|GG||5|||F
+24|SC|DEL|2|time slot fee too high||F
+25|SC|CRASH|3|occasional timeouts||F
+26|SC|PRICE|1|too expensive||F
+27|SC,FR|DEL,SUP|1|can't edit tip or request refund in app||F
+28|SC|CRASH|2|app lags||F
+29|SC|CRASH|2|glitchy, needs reinstall||F
+30|SC|PRIV|2|location prompt every launch||T
+31|SC,FR|COU|2|coupon food-only filter removed||T
+32|SP|PICK|5|order on phone, pick up at store||F
+33|SC|PHARM,LOGIN|1|separate pharmacy app and login||F
+34|SC|LOGIN|1|signed out after update||T
+35|SC|CP|1|payment fails||F
+36|SC|CRASH,DESIGN|2|glitchy and hard to navigate||F
+37|SC,FR|CHANGE,SEARCH|2|can't add items to a placed order|Instacart,Kroger|F
+38|SC|PRICE,COU|1|pricier than Heinen's, sale items run out|Heinen's|F
+39|GG||5|||F
+40|SC|LOGIN|2|email confirmation code fails||F
+41|SC|LOGIN|1|can't log in since update||T
+42|SP|PICK|5|online shopping and pickup||F
+43|SC|DEL,SUP|1|no delivery since myPerks launch, no reply||T
+44|SC|QUAL,SUP|1|spoiled seafood, store refused help|DoorDash|F
+45|SC,FR|PERK,COU|3|card PIN reset freezes, wants more food coupons||F
+46|SC|LOGIN|2|"too many requests" at login||F
+47|SP|PERK,PICK|5|perks and curbside||F
+48|GB||2|||F
+49|SC|CP|1|can't add items to cart after updates|Kroger,Sam's Club|T
+50|SC|PERK|2|perks not applied at self-checkout||F
+51|SP|PRICE|5|quality at a fair price||F
+52|SC,FR|SEARCH,LIST|2|search misses items, favorites reselect||F
+53|GB||1|||F
+54|SP|STAFF|5|polite young staff||F
+55|SC,FR|LIST,SEARCH|2|list redesign, wants aisle locator||T
+56|GG||5|||F
+57|SC,FR|PRICE|2|fewer organic options||F
+58|SC|LOGIN|1|logs out, can't log back in||F
+59|SP|PICK,STAFF|5|curbside staff||F
+60|SC|CP,SUP|1|payment system error, HQ no help||F
+61|SC|CP|1|can't pay in app||F
+62|SC|LIST|1|list broken by update|Meijer|T
+63|SC|CP,CRASH|1|crashes at checkout after update||T
+64|SP|STAFF|5|associate goes above and beyond||F
+65|SC|LIST|2|previously purchased filter removed||T
+66|SP|STAFF|5|shoppers who fill orders||F
+67|SP|PERK|5|shows perks clearly||F
+68|SC|LOGIN,SEARCH|1|can't sign in, search returns nothing||F
+69|SC|CP|2|UPMC Healthy Card not accepted online||F
+70|SC|LOGIN|1|can't sign in||T
+71|SC|LOGIN|1|can't sign in or pick a store after update||T
+72|SC|QUAL|1|poor pot pie quality||F
+73|SC,FR|COU|2|coupon expiry filter removed||T
+74|SC|PRIV|1|unclear why info is public||F
+75|SC|PRICE|1|prices too high|Trader Joe's|F
+76|SC|LIST|1|shopping list disappears||F
+77|SC|CP|2|payment won't process||F
+78|GG||5|||F
+79|SP|COU|4|easy app, lots of coupons||F
+80|SP|QUAL,STAFF|5|accurate orders||F
+81|SP|PICK,STAFF|5|curbside staff||F
+82|SC|LIST,SCAN|1|list and scanner broken by updates||T
+83|SC|CP|1|payment won't load||T
+84|SC|SCAN|2|scanner stopped after update||T
+85|SC|SCAN|1|scanner broken by update||T
+86|SC,FR|PERK|2|loyalty card won't add to Wallet||F
+87|SC|COU,SUP|1|promotions and rebates misleading||F
+88|FR|COU|2|promo codes for repeat customers||F
+89|SC|DESIGN|1|hard to use||F
+90|SC|SCAN|1|price-check scanner gone|Kroger|T
+91|SP|DEL,STAFF|5|on-time, courteous delivery||F
+92|SC|SCAN|1|scanner doesn't work||F
+93|SC|SCAN|1|scanner no longer works||T
+94|SC,SP|PERK|3|perks card missing from Apple Wallet||F
+95|GG||5|||F
+96|SP|PICK,STAFF|5|curbside staff||F
+97|SC|DEL,QUAL|2|delivery missing items, especially sale items||F
+98|SC|LOGIN|1|can't log in after update||T
+99|SC|COU,SEARCH|1|deals outdated, items missing online||F
+100|SC|CP,CRASH|1|payment rarely accepted, glitches||F
+101|SC|CP|2|can't check out||F
+102|SC|COU,CRASH|2|promo codes never work||F
+103|SP|COU|5|good BOGO sales||F
+104|SC|CRASH|1|app won't download||F
+105|SC|LOGIN|1|can't log in to buy gift cards||F
+106|SP|STAFF,TIME|5|on time, kind workers||F
+107|SP|TIME|5|saved time before going back to school||F
+108|SP|PICK,STAFF|5|easy pickup, helpful staff||F
+109|GG||4|||F
+110|SC|CRASH|1|crashes after update||T
+111|SC|LOGIN|1|signs out, passkey prompt crashes||F
+112|GG||5|||F
+113|SC|DESIGN,CP|2|confusing checkout flow||F
+114|SP|PRICE|5|clean, well-stocked store||F
+115|SC|CP|1|can't check out||F
+116|SC|SUP,DESIGN|3|hard to get help with an order||F
+117|GG||5|||F
+118|SC|CRASH,PRICE|2|slower than Kroger's app, high prices|Kroger|F
+119|SP|PICK,STAFF|5|curbside staff||F
+120|SP|STAFF,PRICE|5|friendly staff, has what I need||F
+121|SC|PRICE|2|limited brands||F
+122|SC|COU|1|coupon didn't apply in full||F
+123|SC|DEL,DESIGN|1|delivery fees higher than Instacart|Instacart|F
+124|SC|PRIV,PERK|1|birth date required to link card||F
+125|SP|COU|5|coupons flagged on products||F
+126|SC|SEARCH|3|hard to find a specific brand||F
+127|SC|CRASH|2|stuck loading half the time||F
+128|SP|STAFF|5|order pickers||F
+129|GG||5|||F
+130|GG||5|||F
+131|GB||1|||F
+132|SC|LOGIN|1|signed out every time, no signal in store||F
+133|SP|DEL,TIME|5|delivery without a car||F
+134|GG||5|||F
+135|SC|PRIV|1|lock screen required||F
+136|GG||5|||F
+137|SC|COU|2|coupon expiry dates gone||T
+138|GG||5|||F
+139|SC|DESIGN|2|confusing for older users||F
+140|SC|CRASH|3|reinstall to fix problems||F
+141|SP|DESIGN|5|easier than the website||F
+142|SP|TIME|5|can't walk the store, app helps||F
+143|SC|DEL|2|bag fee on delivery||F
+144|GG||5|||F
+145|SC|PHARM,DESIGN|1|pharmacy section glitchy|Kroger|F
+146|SC|DEL,QUAL|2|missed drop-off, poor beef||F
+147|FR,SP|DEL|3|tip as a percent of order||F
+148|SP|TIME|5|groceries when too busy||F
+149|SC|LOGIN|1|signs out at the register||F
+150|SC,SP|PRICE,PERK|3|good quality, pricey even with perks||F
+151|GG||5|||F
+152|SP|PICK,STAFF|5|curbside staff, long work hours||F
+153|SP|PICK,TIME|5|family pickup on the way home||F
+154|SC|LIST,SUP|2|favorites hidden, no support reply||F
+155|SC|CP,CRASH|1|five tries to confirm pickup order||F
+156|SP|SEARCH|5|easy to look up prices||F
+157|GG||5|||F
+158|SC|CRASH,COU|1|crashes, sale prices not applied||F
+159|SC|CHANGE|2|adding items risks losing time slot||F
+160|SC|CP|1|payment fails for a month||F
+161|SC|LOGIN,SUP|1|can't log in, no developer contact||F
+162|SC|LOGIN|1|asked to log in at the register||F
+163|SC|CRASH|1|app says invalid||F
