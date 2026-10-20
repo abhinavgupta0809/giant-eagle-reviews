@@ -6,6 +6,7 @@ browsable, read next to Kroger's SEC filings on its pending acquisition of Giant
 student project on Gen Z engagement with Giant Eagle. Run 6 of a series (Perplexity, Indeed,
 Claude, Wispr Flow, Snapchat, Giant Eagle). Not affiliated with Giant Eagle or Kroger.
 
+- Live: https://giant-eagle-reviews-site.vercel.app/ (Vercel project `giant-eagle-reviews-site`, root directory `site`, deploys on push to `main`, Web Analytics on)
 - Site: `site/` (static HTML, CSS, JavaScript; no build step)
 - Findings: `analysis/insights.json`; taxonomy: `docs/TAXONOMY.md` (categories plus the brief-area map in `analysis/taxonomy.json`)
 - Labels: `analysis/hand_labels.csv` (written from `analysis/hand_labels_by_index.txt` for the first six months and `analysis/hand_labels_by_index_12mo_new.txt` for the rest; the index files use positions in the CSV they were written against); `pipeline/apply_hand_labels.py` writes `data/annotated_reviews.csv`
